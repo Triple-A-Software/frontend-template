@@ -1,0 +1,301 @@
+{
+    "page": {
+        "login": {
+            "title": "Anmelden"
+        },
+        "setup": {
+            "title": "Einrichten",
+            "description": "Richte dein erstes Admin-konto ein."
+        },
+        "logout": {
+            "title": "Abmelden",
+            "description": "Du hast dich erfolgreich abgemeldet."
+        },
+        "forgot-password": {
+            "title": "Passwort vergessen"
+        },
+        "reset-password": {
+            "title": "Passwort zurücksetzen",
+            "description": "Setze dein Passwort zurück."
+        },
+        "blog": {
+            "title": "Blog"
+        },
+        "dashboard": {
+            "title": "Dashboard"
+        },
+        "pages": {
+            "title": "Seiten"
+        },
+        "users": {
+            "title": "Benutzer"
+        },
+        "files": {
+            "title": "Dateien"
+        },
+        "forgotPassword": {
+            "title": "Passwort vergessen"
+        },
+        "resetPassword": {
+            "title": "Passwort zurücksetzen"
+        },
+        "plugins": {
+            "title": "Plugins"
+        },
+        "userProfile": {
+            "title": "Profil",
+            "joinedOn": "Beigetreten am {0}",
+            "activity": "Aktivität"
+        },
+        "settings": {
+            "general": {
+                "title": "Allgemeine Einstellungen"
+            },
+            "page": {
+                "title": "Seiteneinstellungen"
+            }
+        },
+        "profileSettings": {
+            "profile": {
+                "title": "Profileinstellungen"
+            },
+            "password": {
+                "title": "Passwort ändern"
+            },
+            "preferences": {
+                "title": "Voreinstellungen"
+            },
+            "security": {
+                "title": "Sicherheit",
+                "createAccessToken": "Accesstoken erstellen",
+                "accessTokens": "Accesstokens",
+                "sessions": "Sessions"
+            }
+        }
+    },
+    "input": {
+        "label": {
+            "email": "Email",
+            "password": "Passwort",
+            "confirmPassword": "Passwort bestätigen",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "currentPassword": "Aktuelles Passwort",
+            "newPassword": "Neues Passwort",
+            "location": "Ort",
+            "title": "Titel",
+            "description": "Beschreibung",
+            "tags": "Tags",
+            "language": "Sprache",
+            "theme": "Farbmodus",
+            "rowsPerPage": "Ergebnisse pro Seite",
+            "columns": "Spalten",
+            "role": "Rolle",
+            "avatar": "Avatar",
+            "tokenName": "Tokenname"
+        },
+        "placeholder": {
+            "search": "Suchen...",
+            "tags": "Tags auswählen"
+        }
+    },
+    "action": {
+        "login": "Anmelden",
+        "forgotPassword": "Passwort vergessen?",
+        "submit": "Absenden",
+        "finishSetup": "Einrichtung abschließen",
+        "resetPassword": "Passwort zurücksetzen",
+        "setStatus": "Status setzen",
+        "newTag": "Neuer Tag",
+        "save": "Speichern",
+        "reset": "Zurücksetzen",
+        "new": "Neu",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen",
+        "create": {
+            "any": "Erstellen",
+            "token": "Token erstellen",
+            "page": "Neue Seite erstellen",
+            "user": "Neuen Benutzer erstellen"
+        }
+    },
+    "slideover": {
+        "user": {
+            "title": {
+                "new": "Benutzer erstellen",
+                "edit": "Benutzer bearbeiten"
+            }
+        }
+    },
+    "modal": {
+        "delete": {
+            "title": "Löschen",
+            "description": "Bist du dir sicher, dass du diese(n) {0} löschen möchtest?"
+        }
+    },
+    "commandPalette": {
+        "section": {
+            "settings": "Einstellungen",
+            "data": "Daten",
+            "account": "Account",
+            "recent": "Letzte Suchen",
+            "users": "Benutzer",
+            "search": "Suche"
+        }
+    },
+    "recordName": {
+        "user": "Benutzer",
+        "page": "Seite",
+        "token": "Token",
+        "session": "Session"
+    },
+    "field": {
+        "id": "ID",
+        "email": "Email",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "location": "Ort",
+        "title": "Titel",
+        "description": "Beschreibung",
+        "tags": "Tags",
+        "language": "Sprache",
+        "theme": "Theme",
+        "role": "Rolle"
+    },
+    "statusMessage": {
+        "success": {
+            "passwordResetRequest": "Falls diese Emailadresse in unserem System vorhanden ist, schicken wir dir in Kürze eine Email.",
+            "passwordReset": "Dein Passwort wurde erfolgreich zurückgesetzt.",
+            "login": "Erfolgreich angemeldet!",
+            "setup": "Einrichtung erfolgreich abgeschlossen!",
+            "profile": "Profil erfolgreich aktualisiert!",
+            "theme": "Farbmodus erfolgreich gespeichert!",
+            "language": "Sprache erfolgreich gespeichert!",
+            "passwordChange": "Passwort erfolgreich geändert!",
+            "update": "Eintrag erfolgreich aktualisiert!",
+            "delete": "Eintrag erfolgreich gelöscht!",
+            "create": "Eintrag erfolgreich erstellt!",
+            "copyEmail": "Email in die Zwischenablage kopiert.",
+            "createToken": "Token erfolgreich erstellt!",
+            "copyToken": "Token in die Zwischenablage kopiert.",
+            "deleteToken": "Token erfolgreich gelöscht!",
+            "deleteSession": "Session erfolgreich gelöscht!",
+            "removeAvatar": "Avatarbild erfolgreich gelöscht."
+        },
+        "error": {
+            "passwordResetRequest": "Bitte gib eine gültige Emailadresse ein.",
+            "passwordMismatch": "Passwörter stimmen nicht überein.",
+            "required": "Dieses Feld ist erforderlich.",
+            "passwordReset": "Ein Fehler ist beim Zurücksetzen deines Passworts aufgetreten.",
+            "setup": "Ein Fehler ist aufgetreten.",
+            "update": "Konnte diesen Eintrag nicht aktualisieren",
+            "delete": "Konnte diesen Eintrag nicht löschen",
+            "create": "Konnte diesen Eintrag nicht erstellen",
+            "deleteSelf": "Du kannst dich nicht selbst löschen.",
+            "deleteCurrentSession": "Du kannst deine aktuelle Session nicht löschen.",
+            "passwordChange": "Passwort ändern fehlgeschlagen."
+        }
+    },
+    "info": {
+        "tokenCreated": "Du kannst deinen erstellten Token mit dem Namen: \"{0}\" kopieren. Dieser Token verfällt nicht. Jeder mit diesem Token hat Zugriff auf dein Konto und alle Daten, die mit deinem Konto verbunden sind.",
+        "noData": "Keine Daten gefunden."
+    },
+    "apiResponse": {
+        "invalidCredentials": "Ungültige Zugangsdaten"
+    },
+    "navigation": {
+        "label": {
+            "logout": "Abmelden",
+            "viewProfile": "Profil anzeigen",
+            "profileSettings": "Profileinstellungen",
+            "dashboard": "Dashboard",
+            "pages": "Seiten",
+            "blog": "Blog",
+            "files": "Dateien",
+            "users": "Benutzer",
+            "plugins": "Plugins",
+            "profile": {
+                "title": "Profil",
+                "password": "Passwort",
+                "preferences": "Voreinstellungen",
+                "security": "Sicherheit"
+            },
+            "settings": {
+                "title": "Einstellungen",
+                "general": "Allgemein",
+                "page": "Seite"
+            }
+        }
+    },
+    "tooltip": {
+        "copyEmail": "Email kopieren"
+    },
+    "activity": {
+        "label": {
+            "update": "Änderte {0} mit der ID {1}",
+            "create": "Erstellte {0} mit der ID {1}",
+            "delete": "Löschte {0} mit der ID {1}",
+            "login": "Angemeldet",
+            "logout": "Abgemeldet"
+        },
+        "description": {
+            "update": "Änderte {0} von \"{1}\" zu \"{2}\""
+        }
+    },
+    "columns": {
+        "user": {
+            "email": "E-Mail",
+            "role": "Rolle",
+            "onlineStatus": "Online-Status",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "location": "Ort",
+            "title": "Titel",
+            "description": "Beschreibung",
+            "tags": "Tags",
+            "language": "Sprache",
+            "theme": "Farbmodus"
+        },
+        "token": {
+            "name": "Tokenname"
+        },
+        "session": {
+            "ipAddress": "IP Adresse",
+            "userAgent": "User-agent"
+        },
+        "common": {
+            "createdAt": "Erstellt am",
+            "updatedAt": "Geändert am",
+            "deletedAt": "Gelöscht am",
+            "createdBy": "Erstellt von",
+            "updatedBy": "Geändert von",
+            "deletedBy": "Gelöst von",
+            "actions": "Aktionen"
+        }
+    },
+    "common": {
+        "signedInAs": "Angemeldet als",
+        "search": "Suchen",
+        "savesAutomatically": "Wird automatisch gespeichert",
+        "role": {
+            "admin": "Administrator",
+            "editor": "Editor",
+            "author": "Autor",
+            "contributor": "Kontributor"
+        },
+        "theme": {
+            "light": "Hell",
+            "dark": "Dunkel"
+        },
+        "onlineStatus": {
+            "online": "Online",
+            "offline": "Offline",
+            "away": "Abwesend",
+            "do_not_disturb": "Nicht stören"
+        },
+        "showing_to_of_results": "Zeige {0} bis {1} von {2} Ergebnissen",
+        "meta": {
+            "description": "Admin UI für {0}"
+        }
+    }
+}

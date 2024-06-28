@@ -1,0 +1,36 @@
+{
+    "name": "@cms/admin",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxi generate",
+        "dev": "nuxt dev",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "format": "biome check --apply-unsafe . && biome format --write .",
+        "check": "nuxi typecheck"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.8.1",
+        "@iconify-json/tabler": "^1.1.113",
+        "@nuxtjs/i18n": "^8.3.1",
+        "@nuxt/kit": "^3.12.2",
+        "nuxt": "^3.12.2",
+        "@types/bun": "^1.1.4",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "@nuxt/ui": "^2.17.0",
+        "@pinia/nuxt": "^0.5.1",
+        "@tanstack/vue-query": "^5.45.0",
+        "@unocss/nuxt": "^0.61.0",
+        "@vueuse/nuxt": "^10.11.0",
+        "@vueuse/router": "^10.11.0",
+        "consola": "^3.2.3",
+        "dayjs": "^1.11.11",
+        "pinia": "^2.1.7",
+        "ufo": "^1.5.3",
+        "zod": "^3.23.8"
+    }
+}

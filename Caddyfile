@@ -1,0 +1,8 @@
+http://localhost:8080 {
+    reverse_proxy /api/* http://localhost:3000
+    reverse_proxy /files/* http://localhost:3000
+    reverse_proxy /image/* http://localhost:3000
+
+    reverse_proxy /* http://localhost:3100
+}
+

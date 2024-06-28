@@ -1,0 +1,32 @@
+{
+    "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+    "formatter": {
+        "indentWidth": 4,
+        "indentStyle": "space",
+        "lineWidth": 100,
+        "formatWithErrors": true
+    },
+    "linter": {
+        "rules": {
+            "a11y": {
+                "useKeyWithClickEvents": "off"
+            },
+            "complexity": {
+                "noBannedTypes": "off"
+            },
+            "style": {
+                "useShorthandFunctionType": "off"
+            }
+        }
+    },
+    "files": {
+        "maxSize": 1073741824,
+        "ignore": [".pnp.cjs", ".nuxt", "node_modules", ".output", "dist", ".git", "migrations"],
+        "ignoreUnknown": true
+    },
+    "vcs": {
+        "enabled": true,
+        "clientKind": "git",
+        "useIgnoreFile": true
+    }
+}
