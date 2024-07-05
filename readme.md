@@ -15,7 +15,7 @@ This is a template for a Nuxt-based frontend / admin UI.
 
 ## API
 
-To build an API for this frontend, your api needs to fulfill the api-schema defined in [api-schema.md](https://git.aaa-soft.net/Triple-A/nuxt-frontend-template/src/branch/main/api-schema.md).
+To build an API for this frontend, your api needs to fulfill the api-schema defined in [api-schema.md](api-schema.md).
 
 ## Dev-environment
 
